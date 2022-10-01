@@ -77,7 +77,6 @@ app.get('/movieDetails', async (req, res) => {
 
 app.put('/updateMovie', async (req, res) => {
     try{
-        console.log(req)
         let movie = req.body[0]
         let movieId = movie.id
 
